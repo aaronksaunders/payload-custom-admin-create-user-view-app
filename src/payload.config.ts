@@ -19,6 +19,14 @@ export default buildConfig({
     importMap: {
       baseDir: path.resolve(dirname),
     },
+    components: {
+      views: {
+        'create-account': {
+          Component: 'src/components/Users/CreateAccountViewComponent',
+          path: '/create-account',
+        },
+      },
+    },
   },
   collections: [Users, Media],
   editor: lexicalEditor(),
