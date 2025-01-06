@@ -2,6 +2,9 @@
 
 A modern web application built with Next.js and Payload CMS, providing a robust content management system with user authentication.
 
+## Video 
+- https://www.youtube.com/watch?v=X-6af837WbY
+
 ## Features
 
 - **Next.js Framework**: Built on React with server-side rendering capabilities
