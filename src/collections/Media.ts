@@ -12,5 +12,8 @@ export const Media: CollectionConfig = {
       required: true,
     },
   ],
-  upload: true,
+  upload : {
+    disableLocalStorage: true,
+    staticDir: process.env.MEDIA_STATIC_DIR,
+  }
 }
