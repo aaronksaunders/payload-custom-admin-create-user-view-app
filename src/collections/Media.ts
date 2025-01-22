@@ -4,6 +4,7 @@ export const Media: CollectionConfig = {
   slug: 'media',
   access: {
     read: () => true,
+    create: () => true,
   },
   fields: [
     {
@@ -12,8 +13,8 @@ export const Media: CollectionConfig = {
       required: true,
     },
   ],
-  upload : {
-    disableLocalStorage: true,
+  upload: {
+    disableLocalStorage: false,
     staticDir: process.env.MEDIA_STATIC_DIR,
-  }
+  },
 }
